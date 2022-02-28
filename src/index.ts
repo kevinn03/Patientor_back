@@ -18,7 +18,7 @@ app.get('/ping', (_req, res) => {
 app.use('/api/diagnoses', diagnosesRouter);
 app.use('/api/patients', patientsRouter);
 app.get('/*', (_req, res) => {
-  res.sendFile(path.join(__dirname, './build', 'index.html'), (err) => {
+  res.sendFile(path.join(__dirname, '../build', 'index.html'), (err) => {
     if (err) {
       console.log(err);
     }
