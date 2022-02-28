@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,WACE,qBAAyB,CACzB,iBACF","file":"main.44008369.chunk.css","sourcesContent":["entry-card {\n  border: 1px, solid, black;\n  border-radius: 50%;\n}\n"]}
